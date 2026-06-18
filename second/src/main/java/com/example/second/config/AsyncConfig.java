@@ -20,7 +20,6 @@ public class AsyncConfig {
         executor.setQueueCapacity(6);      // وضع الـ 6 طلبات المتبقية في الطابور (المجموع 10)
 
         executor.setThreadNamePrefix("EcomExecutor-");
-
         executor.initialize();
         return executor;
     }
